@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&family=Varela+Round&display=swap');
+.navbar{
+    background-color:#325288!important;
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+
+
+
+.photo{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     color: white;
+  }
+
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+   
+  }
+
+/*about*/
+
+  #about{
+
+    background-color: white;
+    width:100%;
+    height:90vh;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem ;
+
+  }
+  
+
+  .about p{
+      text-align:left;
+      font-size:20px;
+  }
+
+
+
+  #skill{
+    background-color:#325288;
+    width:100%;
+    height:60vh;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem;
+  }
+
+  #skill{
+      color: white;
+      font-size: 20px;
+      padding:100px 50px;
+
+
+  } 
+
+  .skills-row{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .skill-left-col{
+      flex-basis:50%;
+      text-align: justify;
+  }
+
+  .skills-right-col{
+      flex-basis: 50%;
+
+  }
+
+progress{
+    width: 80%;
+
+
+}
+
+.progress-div{
+    width:70%;
+    margin:auto;
+
+}
+
+
+.progress-div p{
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-left:10px ;
+    text-align: justify;
+}
+
+
+
+
+
+#footer{
+    background-color:#325288;
+    width:100%;
+    height:20vh;
+    
+    text-align: center;
+
+    padding:3%;
+}
